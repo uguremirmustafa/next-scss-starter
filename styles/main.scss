@@ -1,0 +1,11 @@
+@use 'abstracts' as *;
+@use 'base/reset';
+@use 'layout';
+
+body {
+  min-height: 100vh;
+  color: $dark;
+}
+.btn {
+  @include hover-lift();
+}
